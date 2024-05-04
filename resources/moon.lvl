@@ -1,0 +1,83 @@
+{
+  "config": {
+    "id": "434f4365-314c-4b0a-b510-0dd832f63da2",
+    "name": "The Moon",
+    "bloom": {
+      "threshold": 1,
+      "knee": 0.1,
+      "enabled": true,
+      "hdr": true
+    },
+    "dof": {
+      "focus_point": 5,
+      "focus_scale": 0.4,
+      "radius_scale": 1,
+      "enabled": false
+    },
+    "ssao": {
+      "enabled": true,
+      "scale": 4,
+      "radius": 4,
+      "bias": 0.5
+    },
+    "ambient": {
+      "intensity": 0.55,
+      "fog": 0
+    },
+    "shadows": {
+      "num_cascade_layers": 4,
+      "shadow_multiplier": 5,
+      "debug_paint_cascades": false
+    },
+    "physics": {
+      "color": [
+        1,
+        0,
+        0
+      ]
+    },
+    "debug": {
+      "empty_shapes": false,
+      "shadow": false,
+      "physics": true,
+      "lighting": false
+    },
+    "camera": {
+      "fovy": {
+        "radians": 0.7853982
+      },
+      "znear": 0.1,
+      "zfar": 2000
+    },
+    "fxaa": {
+      "enabled": true,
+      "span_max": 8,
+      "reduce_min": 128,
+      "reduce_mul": 8
+    }
+  },
+  "scene": {
+    "prefabs": {
+    },
+    "models": {
+    },
+    "trimeshes": {
+    },
+    "textures": {
+    },
+    "particles": {},
+    "animations": {
+    },
+    "terrains": {},
+    "dynamic_backgrounds": {
+    },
+    "hdrs": {},
+    "audio": {},
+    "animation_state": {
+    },
+    "heightfields": {},
+    "behavior_tree": {},
+    "planners": {
+    }
+  }
+}

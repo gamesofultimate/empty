@@ -1,0 +1,29 @@
+id: lit
+name: Lit
+description: |
+  Keep the fire lit at all costs or suffer the consequences!
+developers:
+  - name: Felipe Rocha
+    email: ["felipe@ultimate.games"]
+  - name: Noraa Stoke
+    email: ["noraa.july.stoke@gmail.com", "noraa@ultimate.games" ]
+test:
+  resources:
+    requests:
+      cpu: 100m
+      memory: 500M
+    limits:
+      cpu: 200m
+      memory: 600M
+build:
+  assets: resources/
+  executables:
+    client: mayhem
+    server: mayhem_server
+  client:
+    assets: resources/
+    executable: mayhem
+  server:
+    executable: mayhem_server
+    dockerfile: Dockerfile
+  sidecar: 0.1.0

@@ -1,9 +1,9 @@
 # You must change these to your own details.
 [package]
-name = "lit"
-description = "Keep the fire lit at all costs or suffer the consequences."
+name = "chaos"
+description = "Make your imagination come to reality"
 version = "0.1.1"
-authors = ["Felipe Rocha <felipe@ultimate.games>, Noraa Stoke <noraa.july.stoke@gmail.com, noraa@ultimate.games>"]
+authors = ["Felipe Rocha <felipe@ultimate.games>"]
 categories = ["wasm"]
 readme = "README.md"
 edition = "2018"
@@ -34,7 +34,7 @@ tagged = { version = "0.1.16", registry = "ultimate-shared" }
 parry3d = { version = "0.13.1"}
 log = "0.4.6"
 fix-hidden-lifetime-bug = "0.2.4"
-uuid = { version = "1.4.0", features = ["serde", "v4", "wasm-bindgen"] }
+uuid = { version = "1.8.0", features = ["serde", "v4", "js"] }
 async-trait = "0.1.13"
 serde = { version = "1.0.124", features = ["derive"] }
 rand = "0.8.5"
